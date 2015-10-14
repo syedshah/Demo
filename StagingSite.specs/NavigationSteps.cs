@@ -12,9 +12,9 @@ namespace StagingSite.specs
     public class NavigationSteps
     {
         [Given]
-        public void Given_I_m_on_the_registration_page()
+        public void Given_I_am_on_the_QAWorks_Staging_Site()
         {
-            WebBrowser.Current.GoTo("http://localhost:62988/Register.aspx");
+            WebBrowser.Current.GoTo("http://staging.qaworks.com:1403/contact.aspx");
         }
     }
 }
